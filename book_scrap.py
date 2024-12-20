@@ -18,6 +18,12 @@ no_of_pages = 50
 # git commit -m "fetch message"
 # copy pase git code from github
 
+
+###### after code change ######
+# git add .
+# git commit -m "your message"
+# git push origin
+
 def scrap_book(url):
     response = requests.get(url)
     print(response.status_code)
