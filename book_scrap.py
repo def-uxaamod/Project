@@ -3,10 +3,20 @@ from bs4 import BeautifulSoup
 import sqlite3
 
 URL = "https://books.toscrape.com/"
+no_of_pages = 50
 
-# git config --global user.name "def-uxaamod"
+# git config --global user.name "Aamod Mani Lamichhane"
 # git config --global user.email "lamichhanez.aamod69x@gmail.com"
 
+# install git
+# create a repository in github
+# go to git bash
+# git init 
+# git status => if you want to check what are the status of files
+# git diff => if you want to check what are the changes
+# git add .
+# git commit -m "fetch message"
+# copy pase git code from github
 
 def scrap_book(url):
     response = requests.get(url)
