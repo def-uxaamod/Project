@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import sqlite3
 
 URL = "https://books.toscrape.com/"
-no_of_pages = 50
+no_of_pages = 550
 
 # git config --global user.name "Aamod Mani Lamichhane"
 # git config --global user.email "lamichhanez.aamod69x@gmail.com"
